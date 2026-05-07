@@ -18,7 +18,7 @@ docker.elastic.co/elasticsearch/elasticsearch:7.17.10
 curl localhost:9200
 
 
-# STEP 9 : Run FastAPI Container
+# Run FastAPI Container
 # Run FastAPI application container
 docker run -d \
 --name fastapi-container \
